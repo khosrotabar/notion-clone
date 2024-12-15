@@ -34,4 +34,4 @@ This project is a clone of the Notion site built using Next.js 15. It includes f
 ## Usage
 - usage guide for website
    ```bash
-   To use this project, simply navigate to the deployed site and log in with your      credentials. You can start creating and editing documents right away.
+   To use this project, simply navigate to the deployed site and log in with your credentials. You can start creating and editing documents right away.
