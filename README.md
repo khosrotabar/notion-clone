@@ -2,7 +2,7 @@
 
 This project is a clone of the Notion site built using Next.js 15. It includes features like collaborative editing, rich text formatting, and more.
 
-## Table of Contentss
+## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Features](#features)
