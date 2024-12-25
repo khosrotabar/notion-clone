@@ -22,6 +22,7 @@ export async function POST(req: NextRequest) {
     .where("userId", "==", sessionClaims?.email)
     .get();
 
+  console.log(usersInRoom);
   const userInRoom = usersInRoom.docs.find((doc) => doc.id === room);
 
   if (userInRoom?.exists) {

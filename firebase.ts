@@ -2,12 +2,12 @@ import { initializeApp, getApps, getApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCL04vghAstDwO_Yckhe8cuAcbQ58iO6so",
-  authDomain: "notion-clone-8f865.firebaseapp.com",
-  projectId: "notion-clone-8f865",
-  storageBucket: "notion-clone-8f865.firebasestorage.app",
-  messagingSenderId: "155354012709",
-  appId: "1:155354012709:web:65df8d8859534cadf473cc",
+  apiKey: "AIzaSyCQZIsSfEfpAbvBKCn9sYXKTz8_r6qyjHA",
+  authDomain: "notion-clone-58b2a.firebaseapp.com",
+  projectId: "notion-clone-58b2a",
+  storageBucket: "notion-clone-58b2a.firebasestorage.app",
+  messagingSenderId: "665844666252",
+  appId: "1:665844666252:web:ca44ec2df19123409510a9",
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();

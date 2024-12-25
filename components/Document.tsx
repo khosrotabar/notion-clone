@@ -38,13 +38,13 @@ function Document({ id }: { id: string }) {
   };
 
   return (
-    <div className='flex-1 h-full bg-white p-5'>
-      <div className='max-w-6xl mx-auto pb-5'>
-        <form onSubmit={updateTitle} className='flex w-full space-x-2'>
+    <div className="flex-1 h-full bg-white p-5">
+      <div className="max-w-6xl mx-auto pb-5">
+        <form onSubmit={updateTitle} className="flex w-full space-x-2">
           {/* update title... */}
           <Input value={input} onChange={(e) => setInput(e.target.value)} />
 
-          <Button type='submit'>{isUpdating ? "Updating..." : "Update"}</Button>
+          <Button type="submit">{isUpdating ? "Updating..." : "Update"}</Button>
 
           {isOwner && (
             <>
@@ -55,13 +55,13 @@ function Document({ id }: { id: string }) {
         </form>
       </div>
 
-      <div className='flex max-w-6xl mx-auto justify-between items-center mb-5'>
+      <div className="flex max-w-6xl mx-auto justify-between items-center mb-5">
         <ManageUsers />
 
         <Avatars />
       </div>
 
-      <hr className='mb-5 max-w-6xl mx-auto' />
+      <hr className="mb-5 max-w-6xl mx-auto" />
 
       {/* Collaborative Editor */}
       <Editor />
